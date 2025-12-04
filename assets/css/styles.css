@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;    /* centre horizontalement */
     flex-direction: column;        /* en colonne */
-    max-height: 1955;              /* occupe la hauteur de la fenêtre */
+    max-height: 1955px;              /* occupe la hauteur de la fenêtre */
     max-width: 1444px;  /* largeur max desktop */
     margin: 0 auto;
     background-color: hsl(330, 100%, 96%);
