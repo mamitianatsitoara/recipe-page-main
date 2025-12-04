@@ -35,7 +35,7 @@
     font-size: 15px;
     font-weight: 400 ;
     font-family: "Outfit";
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .preparation {
@@ -68,6 +68,10 @@
 }
 .preparation ul li span , .instruction  ol li span{
     font-weight: 700;
+}
+.ingredients, .instruction, .nutrition{
+
+    margin: 10px 0 10px 0;
 }
 
 .ingredients h2, .instruction h2, .nutrition h2{
