@@ -3,7 +3,7 @@
     justify-content: center;    /* centre horizontalement */
     align-items: center;        /* centre verticalement */
     flex-direction: column;        /* en colonne */
-    height: 200vh;              /* occupe la hauteur de la fenêtre */
+    height: 300vh;              /* occupe la hauteur de la fenêtre */
     max-width: 1444px;  /* largeur max desktop */
     margin: 0 auto;
     background-color: hsl(330, 100%, 96%);
@@ -11,34 +11,35 @@
   
 }
 .contenue {
-    max-width: 355px;  /* largeur max mobile */
+    max-width: 600px;
     margin: 0 auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    padding: 20px;
+    padding: 40px;
     
 }
 
 .contenue img{
-    max-width: 355px;
+    width: 100%;
     border-radius: 10px;
 }
 
 .contenue header h1 {
     color: hsl(24, 5%, 18%);
-    font-size: 22px;
+    font-size: 36px;
     font-weight: 400 ;
     font-family: "Young Serif";
 }
 .contenue header p{
     color: hsl(24, 5%, 18%);
-    font-size: 9px;
+    font-size: 15px;
     font-weight: 400 ;
     font-family: "Outfit";
+    margin-bottom: 30px;
 }
 
 .preparation {
-    max-width: 345px;
+    width: 97%;
     border-radius: 10px;
     background-color: hsl(330, 100%, 98%);
     padding: 10px;
@@ -48,7 +49,7 @@
 .preparation div{
     color: hsl(332, 51%, 32%);
     padding: 15px 0 0 10px;
-    font-size: 14px;
+    font-size: 20px;
     font-family:"Outfit";
     font-weight: 600;
     
@@ -58,7 +59,7 @@
 }
 
 .preparation ul li, .ingredients ul li, .instruction  ol li{
-    font-size: 9px;
+    font-size: 15px;
     font-family:"Outfit";
     font-weight: 400;
     color: hsl(24, 5%, 18%);
@@ -71,7 +72,7 @@
 
 .ingredients h2, .instruction h2, .nutrition h2{
     color: hsl(14, 45%, 36%);
-    font-size: 18px;
+    font-size: 27px;
     font-family:"Young Serif";
     font-weight: 500;
 }
@@ -93,7 +94,7 @@
 }
 
 .nutrition p{
-    font-size: 9px;
+    font-size: 15px;
     font-family:"Outfit";
     font-weight: 400;
     color: hsl(24, 5%, 18%);
@@ -101,12 +102,12 @@
 .nutrition table{
     width: 90%;
     border-collapse: collapse;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .nutrition td , .attribution{
-    padding: 10px;
-    font-size: 11px;
+    padding: 15px;
+    font-size: 15px;
     font-family:"Outfit";
     font-weight: 400;
     color: hsl(24, 5%, 18%);
