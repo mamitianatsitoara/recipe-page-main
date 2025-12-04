@@ -11,7 +11,7 @@
   
 }
 .contenue {
-    max-width: 375px;  /* largeur max mobile */
+    max-width: 345px;  /* largeur max mobile */
     margin: 0 auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
@@ -20,7 +20,7 @@
 }
 
 .contenue img{
-    width: 375px;
+    max-width: 345px;
     border-radius: 10px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .preparation {
-    width: 355px;
+    max-width: 335px;
     border-radius: 10px;
     background-color: hsl(330, 100%, 98%);
     padding: 10px;
