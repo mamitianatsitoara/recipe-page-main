@@ -1,13 +1,12 @@
 .container {
     display: flex;
     justify-content: center;    /* centre horizontalement */
-    align-items: center;        /* centre verticalement */
     flex-direction: column;        /* en colonne */
     height: 300vh;              /* occupe la hauteur de la fenêtre */
     max-width: 1444px;  /* largeur max desktop */
     margin: 0 auto;
     background-color: hsl(330, 100%, 96%);
-    
+       
   
 }
 .contenue {
@@ -16,7 +15,7 @@
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     padding: 40px;
-    
+       
 }
 
 .contenue img{
